@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Couleurs : Élégance Poudrée ─────────────────────────── */
+  --color-background: #fff8f5;
+  --color-surface: #fff8f5;
+  --color-surface-bright: #fff8f5;
+  --color-surface-dim: #dfd9d6;
+  --color-surface-variant: #e8e1de;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f9f2ef;
+  --color-surface-container: #f3ecea;
+  --color-surface-container-high: #ede7e4;
+  --color-surface-container-highest: #e8e1de;
+  --color-surface-tint: #775652;
+
+  --color-on-surface: #1d1b1a;
+  --color-on-surface-variant: #504443;
+  --color-inverse-surface: #33302e;
+  --color-inverse-on-surface: #f6efec;
+  --color-on-background: #1d1b1a;
+
+  --color-primary: #321917;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #4a2e2b;
+  --color-on-primary-container: #bc9590;
+  --color-inverse-primary: #e7bdb8;
+  --color-primary-fixed: #ffdad6;
+  --color-primary-fixed-dim: #e7bdb8;
+  --color-on-primary-fixed: #2d1513;
+  --color-on-primary-fixed-variant: #5d3f3c;
+
+  --color-secondary: #7f5253;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fec3c3;
+  --color-on-secondary-container: #7a4e4e;
+  --color-secondary-fixed: #ffdad9;
+  --color-secondary-fixed-dim: #f2b8b8;
+  --color-on-secondary-fixed: #321113;
+  --color-on-secondary-fixed-variant: #653b3c;
+
+  --color-tertiary: #3b140d;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #552920;
+  --color-on-tertiary-container: #ce8f81;
+  --color-tertiary-fixed: #ffdad3;
+  --color-tertiary-fixed-dim: #fbb6a8;
+  --color-on-tertiary-fixed: #351008;
+  --color-on-tertiary-fixed-variant: #6a392f;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-outline: #827472;
+  --color-outline-variant: #d4c3c1;
+
+  /* ── Typographie ──────────────────────────────────────────── */
+  --font-display-hero: var(--font-playfair);
+  --font-display-hero-mobile: var(--font-playfair);
+  --font-headline-lg: var(--font-playfair);
+  --font-headline-lg-mobile: var(--font-playfair);
+  --font-headline-md: var(--font-playfair);
+  --font-headline-sm: var(--font-playfair);
+  --font-body-lg: var(--font-jakarta);
+  --font-body-md: var(--font-jakarta);
+  --font-body-sm: var(--font-jakarta);
+  --font-label-lg: var(--font-jakarta);
+  --font-label-md: var(--font-jakarta);
+  --font-label-caps: var(--font-jakarta);
+
+  --text-display-hero: 56px;
+  --text-display-hero--line-height: 68px;
+  --text-display-hero--letter-spacing: -0.02em;
+  --text-display-hero--font-weight: 600;
+
+  --text-display-hero-mobile: 36px;
+  --text-display-hero-mobile--line-height: 44px;
+  --text-display-hero-mobile--letter-spacing: -0.01em;
+  --text-display-hero-mobile--font-weight: 600;
+
+  --text-headline-lg: 40px;
+  --text-headline-lg--line-height: 48px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 500;
+
+  --text-headline-lg-mobile: 28px;
+  --text-headline-lg-mobile--line-height: 36px;
+  --text-headline-lg-mobile--letter-spacing: -0.01em;
+  --text-headline-lg-mobile--font-weight: 500;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 500;
+
+  --text-headline-sm: 20px;
+  --text-headline-sm--line-height: 28px;
+  --text-headline-sm--font-weight: 600;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+
+  --text-body-md: 15px;
+  --text-body-md--line-height: 24px;
+
+  --text-body-sm: 13px;
+  --text-body-sm--line-height: 20px;
+
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--letter-spacing: 0.04em;
+  --text-label-lg--font-weight: 600;
+
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--letter-spacing: 0.05em;
+  --text-label-md--font-weight: 600;
+
+  --text-label-caps: 11px;
+  --text-label-caps--line-height: 16px;
+  --text-label-caps--letter-spacing: 0.12em;
+  --text-label-caps--font-weight: 700;
+
+  /* ── Espacement ───────────────────────────────────────────── */
+  --spacing-gutter: 1.5rem;
+  --spacing-margin: 2rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+
+  /* ── Arrondis ─────────────────────────────────────────────── */
+  --radius-sm: 0.25rem;
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+  /* ── Ombres roses / chocolat ──────────────────────────────── */
+  --shadow-soft: 0 8px 30px rgba(74, 46, 43, 0.06);
+  --shadow-float: 0 20px 48px rgba(74, 46, 43, 0.12);
+  --shadow-hairline: 0 1px 12px rgba(74, 46, 43, 0.03);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  overscroll-behavior: none;
+}
+
+main > :first-child {
+  margin-top: 0 !important;
+}
+main > :last-child {
+  margin-bottom: 0 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+/* Anneau rose ambiant sur les champs de formulaire */
+.field-focus {
+  outline: none;
+  border-color: var(--color-secondary-container);
+  box-shadow: 0 0 0 3px rgba(221, 165, 165, 0.25);
+}

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"background":"#fff8f5","outline":"#827472","primary-fixed":"#ffdad6","error-container":"#ffdad6","secondary":"#7f5253","surface":"#fff8f5","on-primary-fixed":"#2d1513","on-tertiary-fixed":"#351008","tertiary-fixed-dim":"#fbb6a8","primary":"#321917","inverse-primary":"#e7bdb8","on-background":"#1d1b1a","outline-variant":"#d4c3c1","on-surface-variant":"#504443","on-error-container":"#93000a","on-secondary":"#ffffff","secondary-container":"#fec3c3","surface-variant":"#e8e1de","surface-dim":"#dfd9d6","on-primary-fixed-variant":"#5d3f3c","surface-bright":"#fff8f5","secondary-fixed-dim":"#f2b8b8","on-secondary-fixed-variant":"#653b3c","on-error":"#ffffff","surface-container":"#f3ecea","on-tertiary":"#ffffff","surface-tint":"#775652","secondary-fixed":"#ffdad9","on-secondary-fixed":"#321113","inverse-surface":"#33302e","error":"#ba1a1a","primary-container":"#4a2e2b","primary-fixed-dim":"#e7bdb8","on-secondary-container":"#7a4e4e","surface-container-highest":"#e8e1de","surface-container-lowest":"#ffffff","inverse-on-surface":"#f6efec","surface-container-low":"#f9f2ef","tertiary-container":"#552920","on-tertiary-fixed-variant":"#6a392f","on-surface":"#1d1b1a","surface-container-high":"#ede7e4","on-primary-container":"#bc9590","tertiary-fixed":"#ffdad3","tertiary":"#3b140d","on-tertiary-container":"#ce8f81","on-primary":"#ffffff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-lg":"1.5rem","gutter":"1.5rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-sm":"0.5rem","margin":"2rem"},"fontFamily":{"label-caps":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"headline-lg":["Playfair Display"],"display-hero":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"label-md":["Plus Jakarta Sans"]},"fontSize":{"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"700"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"500"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"500"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"500"}],"display-hero":["56px",{"lineHeight":"68px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(74,46,43,0.05)]"><div class="bg-primary-container text-on-primary py-space-xs text-center"><p class="font-label-caps text-label-caps uppercase tracking-wider text-secondary-fixed">L'élégance voilée, la beauté révélée • Écrin Soie &amp; Mousseline Offert dès 60€</p></div><div class="h-28 max-w-7xl mx-auto px-6 lg:px-12 flex flex-col justify-between py-2"><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-3"><span class="font-headline-md text-headline-md tracking-tight text-primary">AWA-R Voiles</span><span class="hidden sm:inline-block font-label-md text-label-md italic text-secondary">Haute Couture Modeste</span></div><div class="hidden md:flex flex-1 max-w-md mx-6"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span><input class="w-full pl-9 pr-4 py-1.5 rounded-lg bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="Rechercher un hijab, mousseline, abaya..." type="search"/></div></div><div class="flex items-center gap-4"><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center p-1.5" data-path="favoris-wishlist" href="#"><span class="material-symbols-outlined">favorite</span></a><a class="relative text-on-surface-variant hover:text-primary transition-colors flex items-center p-1.5" data-path="mon-panier" href="#"><span class="material-symbols-outlined">shopping_bag</span><span class="absolute -top-1 -right-1 bg-secondary-container text-on-secondary-container font-label-md text-label-md w-5 h-5 rounded-full flex items-center justify-center font-bold">3</span></a><a class="flex items-center gap-2 pl-2" data-path="mon-compte" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-secondary-container" src="https://lh3.googleusercontent.com/aida/AEtjO1WGpYJvxl7lWN6x4e3at5F0BFwRvG8hvMYSBWkwXUNAwRE9n-gFSg0BrDFuNB6eM3TD53wgKBY1Llurq4dw6S3UXXi9FXadRL5Otk-ea9W0JcpaTnQ9dJiX-lbol9kyn3uCi42AJgVrHeFM9OVenN4r_o5dkzXw_ViktgZU0gAV9OnbiR9GfwIWcq9pOrKOyun0mr5Ulxott9_bN-rCqn4dfzJf9TaZhIzsIAIna_kicBkFDt5aOKSClCgl"/><span class="hidden lg:inline font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors">Compte</span></a></div></div><nav class="flex items-center justify-center gap-6 overflow-x-auto py-1" data-active-classes="text-primary font-bold"><a aria-current="page" class="whitespace-nowrap transition-colors text-primary font-bold" data-path="accueil" href="#">Accueil</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-colors" data-path="voiles-de-soie-mousseline" href="#">Voiles de Soie &amp; Mousseline</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-colors" data-path="pret-a-porter-feminin" href="#">Prêt-à-Porter Féminin</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-colors" data-path="abayas-modernes" href="#">Abayas Modernes</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-colors" data-path="accessoires-bijoux" href="#">Accessoires &amp; Bijoux</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-colors" data-path="nouveautes" href="#">Nouveautés</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface whitespace-nowrap transition-colors" data-path="promos-girly" href="#">Promos Girly</a></nav></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Announcement Banner -->
+<section class="w-full bg-secondary-container text-on-secondary-container py-space-sm px-6">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-4 text-center">
+<div class="flex-1 flex items-center justify-center gap-2">
+<span class="text-sm">🌸</span>
+<p class="font-label-caps text-label-caps tracking-widest uppercase">
+          Nouvelle Collection Printemps Girly disponible • Livraison offerte dès 60€ d'achat avec le code <span class="underline decoration-primary font-bold">ELEGANCE</span>
+</p>
+</div>
+<button class="hidden md:inline-flex items-center gap-1 font-label-md text-label-md hover:opacity-80 transition-opacity">
+<span>Copier</span>
+<span class="material-symbols-outlined text-sm">content_copy</span>
+</button>
+</div>
+</section>
+<!-- Hero Banner: Editorial Chic Modest Fashion -->
+<section class="relative w-full overflow-hidden bg-surface-container-low py-space-xl lg:py-24">
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-secondary-container/40 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<!-- Left Content -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest">Édition Florale 2025</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary tracking-tight leading-tight">
+          L’Élégance Voilée,<br/>
+<span class="italic font-normal text-secondary">la Beauté Révélée.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Découvrez notre collection exclusive de hijabs en soie de Médine, mousselines vaporeuses, ensembles poudrés et abayas contemporaines créés pour célébrer votre féminité raffinée.
+        </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="h-12 px-8 rounded-lg bg-primary-container text-surface flex items-center justify-center font-label-lg text-label-lg shadow-md hover:bg-primary transition-all duration-200 hover:-translate-y-0.5" data-path="voiles-de-soie-mousseline" href="#">
+            Découvrir la Collection
+          </a>
+<a class="h-12 px-7 rounded-lg bg-surface-container-lowest text-primary flex items-center justify-center font-label-lg text-label-lg shadow-sm hover:bg-secondary-fixed transition-colors" href="#coups-de-coeur">
+            Nos Best-sellers Girly
+          </a>
+</div>
+<!-- Metric highlights -->
+<div class="grid grid-cols-3 gap-6 pt-6 mt-4 w-full max-w-lg">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary">100%</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Tissus d'Exception</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary">15k+</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Femmes Sublimées</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary">4.9/5</span>
+<div class="flex items-center text-secondary text-xs">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Visual Mosaic -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<div class="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-xl bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Young elegant Muslim woman dressed in an exquisite soft blush pink Medina silk hijab, with graceful drape around shoulders, soft studio golden hour glow, luxurious minimalist haute couture atmosphere, delicate feminine skin tone and refined modest style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgL8P4hY9fl8UxaiOTeA9qVaupax_T7kENvcX6pjkte_Mes42WvMfYHs4GzYHWL3a6wa5JGZD3usgUanU8PqTDiSj7SR37ztzgReQJwmf_ZRikiws4J-lR-mHUyTeGu9lBNusTlCbos-FLkTFQFBwGp6c5dvXUsERJBSibfh1Db1KlVXS91jWxu0LP9YR7Py5UR4BVu1rhglr0_OGOQUVftNBrjG9iQ9vHgt97P26p"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+<!-- Floating Editorial Card -->
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md shadow-lg flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Iconique de la Saison</span>
+<span class="font-headline-sm text-headline-sm text-primary">Soie de Médine Rose Poudré</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Fluidité &amp; tombé royal</span>
+</div>
+<span class="px-3 py-1.5 rounded-full bg-secondary-container font-label-md text-label-md text-primary font-bold">18,90 €</span>
+</div>
+</div>
+<!-- Overlapping Badge -->
+<div class="hidden sm:flex absolute -top-4 -left-6 bg-surface-container-lowest p-4 rounded-2xl shadow-lg items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">spa</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps uppercase text-on-surface">Toucher Cachemire</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Zéro repassage requis</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Categories Circle Row: Soft Pastel Rings -->
+<section class="w-full py-space-xl bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col items-center text-center mb-10">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-1">Navigation Prémices</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Nos Univers Délicats</h2>
+<div class="w-12 h-0.5 bg-secondary-container mt-2"></div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
+<!-- Cat 1 -->
+<a class="group flex flex-col items-center text-center gap-3" data-path="voiles-de-soie-mousseline" href="#">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden p-1 bg-surface-container-lowest shadow-md group-hover:scale-105 group-hover:shadow-lg transition-all duration-300">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Silk chiffon scarves delicately draped in soft blush and ivory tones, highlighting the smooth texture and subtle glossy finish on a clean editorial surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1aXKGCYzBTj-qmhZssu8wIuaw8NjVIO3s4Ls2_WxWGcYj7lGV3pen_VcwCdMOhI1Gu7pwOZZSKNQ9sG0FHTC80_jQDpqPjGd9qTn44swaNpUOZeVgrPiOOIEoUaDi4vuJt6P99DSywYkpBGOrOU3M4Mj6-oE_8hyEOF7blJkJwfOCp4MtwFX6GLGZ0UNMREsiJl1LJuviphTWwCWo2y3ujXTi3ZH8-wPhwmGk7-iA"/>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary group-hover:text-secondary transition-colors">Voiles de Soie</span>
+</a>
+<!-- Cat 2 -->
+<a class="group flex flex-col items-center text-center gap-3" data-path="voiles-de-soie-mousseline" href="#">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden p-1 bg-surface-container-lowest shadow-md group-hover:scale-105 group-hover:shadow-lg transition-all duration-300">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Lightweight luxury crinkle chiffon and soft modal jersey fabric in warm cream tones, softly folded in an airy minimalist fashion layout." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpUkkCqiPj6jQde4dywvJuiwlYNNjcaCpuFym4bBN3jhgVuuHABfsJclnKfsVxDxK--je99_Hx-9hEbg39v2knDc2CJjViq0p-mfmjrZ_7FlS3VB2v9oxFOJvmDMHVPoUmENUoHBSI-X5I9A2Pt4mfPq0AXYfxZc5huj7ygWsZJDgEUuC3WdBzKOzfm8AJ9CpxUin-A8Wow4gBvA_dlg9bjYoE2mDXFWggAnFedol7"/>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary group-hover:text-secondary transition-colors">Mousseline &amp; Jersey</span>
+</a>
+<!-- Cat 3 -->
+<a class="group flex flex-col items-center text-center gap-3" data-path="pret-a-porter-feminin" href="#">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden p-1 bg-surface-container-lowest shadow-md group-hover:scale-105 group-hover:shadow-lg transition-all duration-300">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Modest powder pink co-ord matching set dress hanging delicately on a designer gold hanger, natural daylight illuminating fabric weave." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvzpW5GwdF8r4tndjdeFvuWCrcObPX3r0zpxC4m63YgMAj6EkrZLo61C6OpL-5fNwjf5g92zYHWyMADKszPN-bylDUoogdPjLupxP88Norgi6fYLvtMwgfMMobiYt5hlSEqCacLfpNHBO9TEfcMSfmrY8Gnz3ono0QZebf5NXgRFe0APomrwQsW8YMqZDLo48AxE7FBXphnRFHc2IbxxDQpo8XuNE97WM70cUSMuFw"/>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary group-hover:text-secondary transition-colors">Robes &amp; Ensembles</span>
+</a>
+<!-- Cat 4 -->
+<a class="group flex flex-col items-center text-center gap-3" data-path="abayas-modernes" href="#">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden p-1 bg-surface-container-lowest shadow-md group-hover:scale-105 group-hover:shadow-lg transition-all duration-300">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Contemporary flowing kimono abaya in nude taupe shade, high end modest tailoring, luxury atelier backdrop with warm earth tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmkVAAvBXBoHyjfOP_jyc4twbpr6r-GfimKJYbcTWQgoRoM3EVVeJkD7JuK-4BRrMILvrE72VeLfuIwr5mdIT3znp5Ahz-CVX1iGv5yvNu72oDWxM17kZFDfngbTc_hYxpZupMKGSpxLitajOa8RKzZjb0mHIG8K1l_h7en4viFoRSdKcp0utE_Leh1tHKPMV77oYgI2Ps47Cpl_iYl62lpKskfqiIebuh6GQYGYOU"/>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary group-hover:text-secondary transition-colors">Abayas Chic</span>
+</a>
+<!-- Cat 5 -->
+<a class="group flex flex-col items-center text-center gap-3" data-path="accessoires-bijoux" href="#">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden p-1 bg-surface-container-lowest shadow-md group-hover:scale-105 group-hover:shadow-lg transition-all duration-300">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Soft bamboo and modal underscarf caps folded neatly, breathable stretch texture, pastel nude and soft almond colors on marble." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfw6fQe81fN9Aq835IGeDzAPOPtSspC3Loi3WinesDj8M4eZIkfCwHwRDGGlcdVZDP0ZWxmnjp_X31OxMQJE0grdOIi2lbh1Q8d8m9bvSwtBjnZ2hvF-jw2lAB8CPRErtBidJo1kK0FWq6a7WVw_QSnN3pN8R7lgpE-RoPRUktEoxzoUZ502TFXAB8CRqNICVFehOvh4ZitDx3m7AooNU37B-OMlI0XTqHxg8AwQfL"/>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary group-hover:text-secondary transition-colors">Bonnets &amp; Caps</span>
+</a>
+<!-- Cat 6 -->
+<a class="group flex flex-col items-center text-center gap-3" data-path="accessoires-bijoux" href="#">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden p-1 bg-surface-container-lowest shadow-md group-hover:scale-105 group-hover:shadow-lg transition-all duration-300">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Delicate magnetic hijab pins in rose gold and pearlescent finishes, jewelry luxury display with small pastel dried flowers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWjK13n6X7fa79jrufSP2dJuwJwJG8bRIzvYeAHbA8UmNROuPb0PRjIGURLC3XxqhHexmvuAjZGLYwxrx0vcLtJ1biGwMyM5UtMstIu7kS0nHUOeTsUDMb7NuGyzmC8YEwrCTK3BkfBjCwxEdgTL68adIuJCT3yspq2Dq1cEa0wIwivazd9nASOOohBgNDbpFXoxLR1ENf1MUz2wvXQiVHaq-lI7tMuQ_dAMkJMiSZ"/>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-primary group-hover:text-secondary transition-colors">Épingles &amp; Bijoux</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Featured Grid: Les Coups de Cœur Girly -->
+<section class="w-full py-space-xl bg-surface-container-low" id="coups-de-coeur">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header with Filter Tabs -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block mb-1">Sélection Printanière</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Les Coups de Cœur Girly</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Les pièces favorites plébiscitées par notre communauté pour un drapé sublime.</p>
+</div>
+<!-- Filter Pills -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1">
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all shadow-sm">Tous les Voiles</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all shadow-sm">Soie de Médine</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all shadow-sm">Robes Fluides</button>
+<button class="px-4 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all shadow-sm">Coffrets Cadeaux</button>
+</div>
+</div>
+<!-- 4 Product Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Product 1 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close portrait of a graceful model wearing a pastel rose powder Medina silk hijab, subtle pleating and premium matte drape, soft feminine studio daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3-PAb4zX8TkblP8GH_NWTXaOpWl8hBCaHN6cd6B0KJHE1eaE7JcLwiN8E88h3w3I-38OcjfTwDuJDzJAEP_wysiVqn60UIauviozv-DbF1JevBObcLT1zriC247GIxXcMVsBGVOaN7NH3dIokFnMd9fnbIyqcaGBeCNfNAICCO1wqxIlJzc3Gyt3vygMR4F4-dn02px-xEt4gzrVM7uwUgJCzg3fXcT9sj9WihluW"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase shadow-sm">Coup de Cœur</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-primary font-label-caps text-label-caps uppercase shadow-sm">Best-Seller</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-base">favorite</span>
+</button>
+<div class="absolute bottom-3 inset-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="w-full py-2.5 rounded-lg bg-surface-container-lowest/95 backdrop-blur-md text-primary font-label-lg text-label-lg shadow-md hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-base">keyboard_double_arrow_left</span>
+                Ajout Express
+              </button>
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-3">
+<div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="w-3.5 h-3.5 rounded-full bg-[#E8C2B9] ring-1 ring-primary/20 cursor-pointer" title="Rose Poudré"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-[#F4E9DC] ring-1 ring-transparent hover:ring-primary/20 cursor-pointer" title="Crème Vanille"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-[#D6C5BC] ring-1 ring-transparent hover:ring-primary/20 cursor-pointer" title="Taupe Céleste"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant ml-1 text-xs">+5 teintes</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Hijab Soie de Médine Rose Poudré</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Toucher peau de pêche, tombé opaque infroissable</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-baseline gap-2">
+<span class="font-label-lg text-label-lg text-primary font-bold">18,90 €</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-through text-xs">22,00 €</span>
+</div>
+<span class="font-label-md text-label-md text-secondary">Taille 195×75 cm</span>
+</div>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chic modest two-piece kimono wrap set in cream and warm nude tones worn gracefully by a woman, soft draped linen-cotton blend in warm sunlit interior." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm1FCEKcE0YW3B0Az_A7nVggLy998mYjIdHEDqyfiRjVCMF7cc9xdkaSBnnnf5B_vaQ94E-NnKAop6VVur3bYvGdQTUb-nzv_KOpP9u7537pcKR_mUD3BbfvKuAsbFzv8sCVsnFsp7AUsaZO6G2N7CZ-p-wvPwene6OJGr6rISPalb-PXZKKGBFNQVQI8ZsWXQ1iX7MJRWFSX8Dzafsj_l1wyumxr3d7iY_kH_ADhd"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-primary text-on-primary font-label-caps text-label-caps uppercase shadow-sm">Nouveau</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-base">favorite</span>
+</button>
+<div class="absolute bottom-3 inset-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="w-full py-2.5 rounded-lg bg-surface-container-lowest/95 backdrop-blur-md text-primary font-label-lg text-label-lg shadow-md hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-base">keyboard_double_arrow_left</span>
+                Ajout Express
+              </button>
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-3">
+<div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="w-3.5 h-3.5 rounded-full bg-[#F5EFE7] ring-1 ring-primary/20 cursor-pointer" title="Crème Nacré"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-[#E5D7D0] ring-1 ring-transparent hover:ring-primary/20 cursor-pointer" title="Nude Rosé"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-[#C7A398] ring-1 ring-transparent hover:ring-primary/20 cursor-pointer" title="Terracotta Doux"></span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Ensemble Cache-Cœur Crème &amp; Nude</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Tissu ultra-doux avec ceinture satinée amovible</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-baseline gap-2">
+<span class="font-label-lg text-label-lg text-primary font-bold">59,00 €</span>
+</div>
+<span class="font-label-md text-label-md text-secondary">Du 36 au 46</span>
+</div>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Flowing modest butterfly cut abaya in subtle soft lavender mauve tone with fine embroidery along the cuffs, clean minimal luxury modest lookbook lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ7VtI6xW4XjH8pMSGHEub3nA2jI7kKPnuWuEruSHjNVgimvWurRFMRLqY85Y6aMxloPft8XOuK53MAj14AeA3EKQeeSOF_xStDIbUvErBlpqfafz-u2L-AHG3OA05ieO1sXFYykcx1yffAj5PnSIUBGmRMIeo4BtOYn7AMtW3GbvUROdjGOqiDxgHFRXjmJ4OYNcREc0XPmjleuOeZQZ-ALt8ZptM2uwDCq4l8YUX"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase shadow-sm">Tendance</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-base">favorite</span>
+</button>
+<div class="absolute bottom-3 inset-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="w-full py-2.5 rounded-lg bg-surface-container-lowest/95 backdrop-blur-md text-primary font-label-lg text-label-lg shadow-md hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-base">keyboard_double_arrow_left</span>
+                Ajout Express
+              </button>
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-3">
+<div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="w-3.5 h-3.5 rounded-full bg-[#D8CFDC] ring-1 ring-primary/20 cursor-pointer" title="Mauve Pâle"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-[#E5DDD8] ring-1 ring-transparent hover:ring-primary/20 cursor-pointer" title="Beige Poudré"></span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Abaya Papillon Mauve Pâle</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Coupe ample vaporeuse, tissu Nidha premium</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-baseline gap-2">
+<span class="font-label-lg text-label-lg text-primary font-bold">49,90 €</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-through text-xs">55,00 €</span>
+</div>
+<span class="font-label-md text-label-md text-secondary">Taille Unique</span>
+</div>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Long tiered modest floral maxi dress in dreamy pastel blush and cream palette, styled with matching rose gold jewelry in an airy warm garden setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHeSBUwxoOTvA4ebw-DUP1KzvGFJhglLgJLZK3Z3RYWVQDJgcKt6SP1WmISW_Gg3PzXYXxQd8kf5AXpGr5xLGhkyEzX9dpRy_pJ3Ca7s_SegT1vFShmj4wvV2_ZsEg-f8vnJlWyin944052BBlqVDVkYHgUF2pyRTgxnM6mS77ASPBqyFAvVCK7R_dkXJneaIkDeWXC5pQUknjQ8gKsKFLIefFN5qQYTwjLnGVO6wq"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase shadow-sm">Édition Limitée</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-base">favorite</span>
+</button>
+<div class="absolute bottom-3 inset-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="w-full py-2.5 rounded-lg bg-surface-container-lowest/95 backdrop-blur-md text-primary font-label-lg text-label-lg shadow-md hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-base">keyboard_double_arrow_left</span>
+                Ajout Express
+              </button>
+</div>
+</div>
+<div class="p-5 flex flex-col flex-1 justify-between gap-3">
+<div>
+<div class="flex items-center gap-1.5 mb-1.5">
+<span class="w-3.5 h-3.5 rounded-full bg-[#EAD8D8] ring-1 ring-primary/20 cursor-pointer" title="Fleurs Poudrées"></span>
+<span class="w-3.5 h-3.5 rounded-full bg-[#E2E6DF] ring-1 ring-transparent hover:ring-primary/20 cursor-pointer" title="Sauge Pastel"></span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Maxi Robe Fleurie Pastel</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Doublure intégrale coton doux, manches bouffantes</p>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-baseline gap-2">
+<span class="font-label-lg text-label-lg text-primary font-bold">54,50 €</span>
+</div>
+<span class="font-label-md text-label-md text-secondary">Tailles S - XXL</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Banner bottom CTA -->
+<div class="mt-12 text-center">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-primary-container text-surface font-label-lg text-label-lg hover:bg-primary transition-colors shadow-md" data-path="nouveautes" href="#">
+<span>Explorer l'intégralité du Vestiaire (120+ modèles)</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Fabric Expertise & Quality Storytelling Bento -->
+<section class="w-full py-space-xl bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Left Visual Focus -->
+<div class="lg:col-span-6 relative">
+<div class="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Macro photography of luxurious Medina silk hijab weave showing the soft peach fuzz texture, light reflection on delicate pastel rose fibers with gentle hand touching the fabric." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAn4aQjZ0zpgcqADZ5YwAqOajvVEKTWEz88DvqvOGn5SVolb9PprIH5UVrRG9YkQlM2IXzLP9_CYpagf0cS5rYa6KHV1ohIBx2VKfYa0jR2EdvWtvadk4oEa4Wx64fepeNStfkeDDwnEqeaammK4_g5Zg_81oi5OkJ1l1avbIsOK5GRACbDXdiac_TgZpwZG44qVXj5NxBogL1H7DDVpp7aXtQ9pq52vGGOF1yLoMwD"/>
+</div>
+<!-- Overlap Card -->
+<div class="mt-[-4rem] ml-6 max-w-sm bg-surface-container-lowest p-6 rounded-2xl shadow-xl">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-secondary text-2xl">verified</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Label Toucher Nuage™</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tissé avec des microfibres sélectionnées pour éviter tout glissement, garantir une opacité sans sous-couche et épouser délicatement le port de tête.
+            </p>
+</div>
+</div>
+<!-- Right Informative Bento -->
+<div class="lg:col-span-6 flex flex-col gap-6">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block mb-2">L'Excellence du Détail</span>
+<h2 class="font-headline-lg text-headline-lg text-primary leading-tight">L'Art du Voile &amp; Tissus d'Exception</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+              Chaque pièce signée AWA-R Voiles est conçue pour marier pudeur sacrée, aisance quotidienne et sophistication de haute facture.
+            </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Feature 1 -->
+<div class="p-5 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">blur_on</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Opacité Sublime</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Un grammage précis de 140g/m² garantissant une discrétion irréprochable sans alourdir.</p>
+</div>
+<!-- Feature 2 -->
+<div class="p-5 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">waves</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Drapé Aérien</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Une fluidité naturelle qui tombe harmonieusement sur les épaules tout au long du jour.</p>
+</div>
+<!-- Feature 3 -->
+<div class="p-5 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">palette</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Nuancier Poétique</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Plus de 35 nuances minérales et blush créées sur-mesure pour sublimer chaque carnation.</p>
+</div>
+<!-- Feature 4 -->
+<div class="p-5 rounded-2xl bg-surface-container-low flex flex-col gap-2">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">iron</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Infroissable &amp; Durable</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lavage doux en machine, prêt à porter dès la sortie d'armoire sans fer contraignant.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Community & Instagram Lookbook #AWARVoiles -->
+<section class="w-full py-space-xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-secondary tracking-widest block mb-1">Communauté • #AWARVoiles</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Vos Allures, Notre Fierté</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Identifiez @awarvoiles sur Instagram pour faire partie de notre carnet de style.</p>
+</div>
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg text-secondary hover:text-primary transition-colors" data-path="instagram" href="#">
+<span class="material-symbols-outlined text-base">photo_camera</span>
+<span>Suivre @awarvoiles sur Instagram</span>
+</a>
+</div>
+<!-- Instagram Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+<div class="group relative aspect-square rounded-2xl overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stylish influencer woman wearing blush pink hijab with white oversized linen shirt smiling outdoors in Parisian cafe setting, soft chic lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAHXTHP-kSpA4L8XV8AJBIRiIuFmLg5riDYTUEvwZicmODZqAkp7FI3WqWs08CnhAQ-uKIVJoXB2QEZRMfO2rNyYDkdxgdCP_pMqsNmzcHiIcTP30GFxR43UkQp6g8yiYpiw0vFB6SAc0TNbXlhPVUdyWeY3fh8kXQ8NkJinHDbUrLsu8hyD8q3Bb0UCQC6kCjTI3g5Ft_uMTZ-_Flf7FJ0sucSeR4uv4a0cbboYL3"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4 text-on-primary">
+<span class="font-label-md text-label-md font-bold">@yasmina.mode</span>
+<span class="font-body-sm text-body-sm text-xs">Hijab Soie Rose Poudré</span>
+</div>
+</div>
+<div class="group relative aspect-square rounded-2xl overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Young Muslim woman wearing beige satin abaya walking in an elegant garden with soft flowers, golden hour warm glow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW0wDMWcDj0hPA2EX5Mq8NatHRNorZo5I0B7AkSwe4f9r-9b0SKRYpAnMq2DC3HeuJy1Qj-g38z16CgihGZ2nYAbf1lAvjqquw92lNJdFZQnbuFjuy9oFUUKVD91cJ9ksdmjNzxX3bBUdLHeGNOhibHYGaHdhC07SBiserB_dOGipTVCGqMq5AmFTKiwPgxRoOepsYTksCcwO7-J0N5oIU9r8hOgDeldMjMfPiZp25"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4 text-on-primary">
+<span class="font-label-md text-label-md font-bold">@mariam_lookbook</span>
+<span class="font-body-sm text-body-sm text-xs">Abaya Papillon Mauve</span>
+</div>
+</div>
+<div class="group relative aspect-square rounded-2xl overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Aesthetic flatlay of folded nude pastel hijabs alongside delicate jewelry, perfume bottle and a fresh peony bouquet on cream blanket." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsDRxTjyPhPyZH9wJVtlbvSR188hpYdURE0BNCE6-0DlcXAJjaRAJ2DmVP9GeD0oZaj61aOHhHuX6U46-hUBiTVFTulTbyxwozxyezZTuLDdb2jIR34CENqT8vmJfFt-nh_tqKv__ttBdNNjpqca5VOKyrw5EzCQobIMzq7TEKONUH10ONIGtUzwmZ2rNYUM0bZiaQYuheLgxUEnHMTEkj7PwUEckLGN0JmHFisRra"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4 text-on-primary">
+<span class="font-label-md text-label-md font-bold">@amina_daily</span>
+<span class="font-body-sm text-body-sm text-xs">Coffret Les Poudrés</span>
+</div>
+</div>
+<div class="group relative aspect-square rounded-2xl overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern modest fashion portrait of young woman smiling gently in cream chiffon hijab and sunglasses in an airy marble architecture setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhOcgbglDfjjJy8QdiD_ABasXEHhmUQHp7ccdC0VZ6i_dvhMOoWQ-3ETYbZWZTBDDAo40Tj76hMOx1OO4sg8G2oGoqSV3b_rX_RbfU6p6--M3TUM0wBv85oOt3tgA4PNE2bKz7dZRVJLxWBSYpus6KJWH-OEGw0b1sFW3Hl1-nDVvZl_J1xx921C12NVtGLUe2MRplI-x-MB2gntrUAvsE1_CDpKy7z0mjxGhvbP4L"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4 text-on-primary">
+<span class="font-label-md text-label-md font-bold">@ines_styling</span>
+<span class="font-body-sm text-body-sm text-xs">Mousseline Crème</span>
+</div>
+</div>
+</div>
+<!-- Testimonials / Star Reviews Row -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-4">
+<div class="flex items-center text-secondary text-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+            « La soie de Médine AWA-R est la plus belle que j’ai pu tester : le tombé ne glisse pas, le rose est poudré à la perfection. La boîte sentait tellement bon à l'ouverture ! »
+          </p>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center font-label-md text-label-md text-primary font-bold">
+              SA
+            </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Siham A.</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Commande vérifiée • Lyon</p>
+</div>
+</div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-4">
+<div class="flex items-center text-secondary text-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+            « L'ensemble cache-cœur crème est majestueux. Il taille parfaitement, opaque et fluide. On se sent à la fois élégante, couverte et extrêmement féminine. »
+          </p>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center font-label-md text-label-md text-primary font-bold">
+              KM
+            </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Khadidja M.</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Commande vérifiée • Bruxelles</p>
+</div>
+</div>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-4">
+<div class="flex items-center text-secondary text-sm">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+            « Service client aux petits soins sur WhatsApp pour m'aider à choisir la teinte exacte pour mon mariage civil. Livraison reçue en 48h chrono. 10/10 ! »
+          </p>
+<div class="flex items-center gap-3 pt-2">
+<div class="w-9 h-9 rounded-full bg-secondary-container flex items-center justify-center font-label-md text-label-md text-primary font-bold">
+              NB
+            </div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Nour B.</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Commande vérifiée • Paris</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Reassurance Box: Delicate Golden & Blush Icons -->
+<section class="w-full py-12 bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="p-8 lg:p-10 rounded-3xl bg-surface-container-lowest shadow-md grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Pillar 1 -->
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">featured_seasonal_and_gifts</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary">Écrin Cadeau Parfumé</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Papier de soie &amp; délicat ruban signature</p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">rocket_launch</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary">Expédition sous 24/48h</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Colissimo suivi &amp; Mondial Relay</p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">sync_alt</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary">Retours Sereins 14 Jours</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Échanges facilités et sans tracas</p>
+</div>
+</div>
+<!-- Pillar 4 -->
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">favorite_border</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary">Conseil Bienveillant</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Équipe styliste à votre écoute 6j/7</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Micro-interaction for quick-add cart feedback
+  document.querySelectorAll('button').forEach(btn => {
+    if (btn.textContent.includes('Ajout Express')) {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const originalContent = btn.innerHTML;
+        btn.innerHTML = '<span class="material-symbols-outlined text-base">check</span> Ajouté au panier !';
+        btn.classList.add('bg-secondary', 'text-white');
+        setTimeout(() => {
+          btn.innerHTML = originalContent;
+          btn.classList.remove('bg-secondary', 'text-white');
+        }, 1800);
+      });
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-low mt-space-xl shadow-[0_-1px_12px_rgba(74,46,43,0.03)]"><div class="bg-surface-container py-space-md"><div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left"><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">local_shipping</span><div><h4 class="font-label-lg text-label-lg text-primary">Livraison Rapide &amp; Suivie</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Expédition soignée sous 24h à 48h</p></div></div><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">featured_seasonal_and_gifts</span><div><h4 class="font-label-lg text-label-lg text-primary">Emballage Cadeau Raffiné</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Papier de soie parfumé &amp; boîte signature</p></div></div><div class="flex items-center justify-center md:justify-start gap-3"><span class="material-symbols-outlined text-secondary text-2xl">verified_user</span><div><h4 class="font-label-lg text-label-lg text-primary">Paiement 100% Sécurisé</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Cartes bancaires, Apple Pay &amp; 3x sans frais</p></div></div></div></div><div class="max-w-7xl mx-auto px-6 lg:px-12 py-space-xl grid grid-cols-1 md:grid-cols-4 gap-8"><div class="md:col-span-1"><span class="font-headline-sm text-headline-sm text-primary block mb-space-xs">AWA-R Voiles</span><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Sublimer chaque silhouette d'une touche de modestie céleste et de féminité couture.</p><div class="flex items-center gap-3"><a class="text-secondary hover:text-primary transition-colors flex items-center gap-1 font-label-md text-label-md" data-path="instagram" href="#"><span class="material-symbols-outlined text-base">photo_camera</span> Instagram</a><a class="text-secondary hover:text-primary transition-colors flex items-center gap-1 font-label-md text-label-md" data-path="tiktok" href="#"><span class="material-symbols-outlined text-base">play_circle</span> TikTok</a></div></div><div><h4 class="font-label-caps text-label-caps uppercase text-primary mb-space-sm">Univers Couture</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="voiles-de-soie-mousseline" href="#">Mousseline de Soie</a></li><li><a class="hover:text-primary transition-colors" data-path="voiles-de-soie-mousseline" href="#">Soie de Médine</a></li><li><a class="hover:text-primary transition-colors" data-path="abayas-modernes" href="#">Abayas &amp; Kimonos</a></li><li><a class="hover:text-primary transition-colors" data-path="accessoires-bijoux" href="#">Épingles &amp; Bijoux</a></li></ul></div><div><h4 class="font-label-caps text-label-caps uppercase text-primary mb-space-sm">Service Client</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="suivi-commande" href="#">Suivre ma commande</a></li><li><a class="hover:text-primary transition-colors" data-path="retours-echanges" href="#">Retours &amp; Échanges</a></li><li><a class="hover:text-primary transition-colors" data-path="guide-des-tailles" href="#">Guide des tissus &amp; longueurs</a></li><li><a class="hover:text-primary transition-colors" data-path="contact-faq" href="#">Contact &amp; FAQ</a></li></ul></div><div><h4 class="font-label-caps text-label-caps uppercase text-primary mb-space-sm">Club Privilège VIP</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Recevez nos avant-premières exclusives, conseils styling et privilèges délicats.</p><div class="flex items-center gap-2"><input class="w-full px-3 py-2 rounded-lg bg-surface-container-lowest font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="Votre e-mail précieux..." type="email"/><button class="px-4 py-2 bg-primary text-on-primary rounded-lg font-label-md text-label-md whitespace-nowrap hover:bg-primary-container transition-colors">Rejoindre</button></div></div></div><div class="border-t border-outline-variant/30 py-4"><div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-2 font-label-md text-label-md text-on-surface-variant"><p>© 2025 AWA-R Voiles. Tous droits réservés.</p><div class="flex items-center gap-4"><a class="hover:text-primary transition-colors" data-path="mentions-legales" href="#">Mentions Légales</a><a class="hover:text-primary transition-colors" data-path="politique-confidentialite" href="#">Confidentialité</a></div></div></div></footer></body></html>
